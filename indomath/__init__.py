@@ -72,15 +72,8 @@ def keliling_belah_ketupat(a,b,c,d):
 
 # other
 
-import math as mat
 
 def terbesar(*args):
     print(max(args))
 def terkecil(*args):
     print(min(args))
-def nilai_cos(derajat):
-    print(mat.cos(derajat))
-def nilai_sin(derajat):
-    print(mat.sin(derajat))
-def nilai_tan(derajat):
-    print(mat.tan(derajat))
