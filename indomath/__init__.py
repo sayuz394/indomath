@@ -71,7 +71,11 @@ def keliling_belah_ketupat(a,b,c,d):
     print(a + b + c + d)
 
 # other
-
+# triangle
+def pitagoras(a,b):
+    d = pow(a,2) + pow(b,2)
+    c = pow(d,1/2)
+    print(c)
 
 def terbesar(*args):
     print(max(args))
