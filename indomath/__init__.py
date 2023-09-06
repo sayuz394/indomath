@@ -1,4 +1,4 @@
-
+e = 2.71828
 phi = 22/7
 
 def kali(*args):
@@ -97,3 +97,17 @@ def matriks2x2_adjoint(a,b,c,d):
     print(b * -1,a)
 def matriks2x2_determinan(a,b,c,d):
     print(a * d - b * c)
+# waktu
+
+def menit_detik(a):
+    print(a*60)
+def jam_detik(a):
+    print(a*3600)
+def hari_detik(a):
+    print(a * 24 * 3600)
+def detik_menit(a):
+    print(a / 60)
+def detik_jam(a):
+    print(a / 3600)
+def menit_jam(a):
+    print(a / 60)
